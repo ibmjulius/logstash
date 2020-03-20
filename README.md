@@ -1,6 +1,6 @@
 #Supported tags and respective Dockerfile links
 
-- [`0.1.0`, `0.1.0` (*0.1.0/Dockerfile*)](https://github.com/Accenture/adop-logstash/blob/master/Dockerfile.md)
+- [`0.1.0`, `0.1.0` (*0.1.0/Dockerfile*)](https://github.com/ibmjulius/logstash/blob/master/Dockerfile.md)
 
 # What is adop-logstash?
 
@@ -11,7 +11,7 @@ Logstash is an open source tool for collecting, parsing, and storing logs for fu
 
 The easiest way to run the adop-logstash image is as follows, where VERSION is the release version of the Docker container.
 
-      docker run --name <your-container-name> -d -p 500:500 -p 12201:12201 -p 25826:25826 accenture/adop-logstash:VERSION
+      docker run --name <your-container-name> -d -p 500:500 -p 12201:12201 -p 25826:25826 ibmimage/logstash:VERSION
 
 # License
 Please view [licence information](LICENCE.md) for the software contained on this image.
@@ -28,9 +28,8 @@ Documentation for this image is available in the [Logstash documentation page](h
 Additional documentaion can be found under the [`docker-library/docs` GitHub repo](https://github.com/docker-library/docs). Be sure to familiarize yourself with the [repository's `README.md` file](https://github.com/docker-library/docs/blob/master/README.md) before attempting a pull request.
 
 ## Issues
-If you have any problems with or questions about this image, please contact us through a [GitHub issue](https://github.com/Accenture/adop-logstash/issues).
+If you have any problems with or questions about this image, please contact us.
 
 ## Contribute
 You are invited to contribute new features, fixes, or updates, large or small; we are always thrilled to receive pull requests, and do our best to process them as fast as we can.
 
-Before you start to code, we recommend discussing your plans through a [GitHub issue](https://github.com/Accenture/adop-logstash/issues), especially for more ambitious contributions. This gives other contributors a chance to point you in the right direction, give you feedback on your design, and help you find out if someone else is working on the same thing.
