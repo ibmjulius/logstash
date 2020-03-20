@@ -1,6 +1,6 @@
 #Supported tags and respective Dockerfile links
 
-- [`0.1.0`, `0.1.0` (*0.1.0/Dockerfile*)](https://github.com/ibmjulius/logstash/blob/master/Dockerfile.md)
+- [`0.1.0`, `0.1.0` (*0.1.0/Dockerfile*)](https://github.com/ibmjulius/logstash/blob/master/Dockerfile)
 
 # What is adop-logstash?
 
